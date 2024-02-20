@@ -4,6 +4,9 @@ background : url("tierschutz-hunde.jpg" ) ;
 
 }
 /*backgrand seit web ist mein foto/*/
+#one1{
+    width:100% ;
+}
 
 .ersie {
     color: red;
@@ -23,7 +26,12 @@ h2 {
 
 .neww{
     color: #738a6e;
+<a href="index.html"><h1  class="neww">home</h1></a>
 }
 .neww2{
     color: red;
+<a href="madi.html"><h1 class="neww2">mahdi :)</h1></a>
+}
+#one{
+    font-size: 50px;
 }
