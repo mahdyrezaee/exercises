@@ -1,0 +1,29 @@
+body{
+background : url("tierschutz-hunde.jpg" ) ;
+    background-size: contain;
+
+}
+/*backgrand seit web ist mein foto/*/
+
+.ersie {
+    color: red;
+    background-color: black;
+}
+#tipp{
+    color: darkgreen;
+    background-color: #ffa600;
+}
+h1 {
+    color: rgba(138, 43, 226, 0.5);/*dunkel farbe*/
+}
+h2 {
+    color: blueviolet;
+    background-color: red;
+}
+
+.neww{
+    color: #738a6e;
+}
+.neww2{
+    color: red;
+}
