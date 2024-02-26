@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Htmljava</title>
+    <link rel="stylesheet" href="cssjava.css">
+</head>
+<body>
+<h1 id="erste">Bilden</h1>
+<label for="job">Job:</label><br>
+<input type="text" id="job" name="job"></br>
+<form action="/submit.php" target="_blank" method="post">
+    <!-- Formular-Elemente kommen hier hin -->
+    <!-- Die nächste Zeile ist die Taste zum abschicken des Formulars -->
+    <input type="submit" value="Send">
+</form>
+<label for="drink">Wähle einen Drink:</label>
+<select id="drink" name="drink">
+    <option value="gintonic">Gin Tonic</option>
+    <option value="caipirinha">Caipirinha</option>
+    <option value="wine">Wein</option>
+</select>
+<textarea name="message" rows="15" cols="20">
+The quick brown fox jumps over the lazy dog.
+</textarea>
+<button type="button">Weiter</button>
+
+
+********************************
+
+
+<fieldset>
+ <legend>Persönliche Daten:</legend>
+ <label for="firstname">Vorname:</label><br>
+ <input type="text" id="firstname" name="firstname" ><br>
+ <label for="lastname">Nachname:</label><br>
+ <input type="text" id="lastname" name="lastname">
+
+</fieldset>
+
+</body>
+</html>
+*****************************
+<form action="/action_page.php" id="backgroundformull">
+    <fieldset>
+        <legend id="txt">Personalia:</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="Geburstag">Geburstag:</label>
+        <input type="date" id="Geburstag" name="birthday"><br><br>
+        <label for="password">password:</label>
+        <input type="text" id="password" name="password"><br><br>
+        <label for="Alt">Alt:</label>
+        <input type="range" id="Alt" name="Alt" min="0" max="800" ><br><br>
+
+        <label for="browsers">Geschlecht</label>
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="HERR">
+            <option value="FRAU">
+        </datalist><br><br>
+        <label for="browsers">HabenSie Hund</label>
+        <input list="hund">
+        <datalist id="hund">
+            <option value="JA">
+            <option value="NEIN">
+        </datalist><br><br>
+        <input type="submit" value="Submit">
+    </fieldset>
+</form>
