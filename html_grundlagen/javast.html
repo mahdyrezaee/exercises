@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Htmljava</title>
+    <link rel="stylesheet" href="cssjava.css">
+</head>
+<body>
+
+<form action="/action_page.php" id="backgroundformull">
+    <fieldset>
+        <legend id="txt">Personalia:</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="Geburstag">Geburstag:</label>
+        <input type="date" id="Geburstag" name="birthday"><br><br>
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="vol">Alt:</label>
+        <input type="range" id="vol" name="Alt" min="0" max="120" ><br><br>
+
+        <label for="browsers">Geschlecht</label>
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="HERR">
+            <option value="FRAU">
+
+        </datalist><br><br>
+
+        <textarea name="message" rows="15" cols="50" >
+            Was denken sie über Hunde?
+        </textarea><br><br>
+
+        <label for="browsers">HabenSie Hund</label>
+        <input list="hund">
+        <datalist id="hund">
+            <option value="JA">
+            <option value="NEIN">
+        </datalist><br><br>
+        <label for="fname">Name dein Hund:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="Geburstag">Geburstag dein Hund:</label>
+        <input type="date" id="Geburstag dein Hund" name="birthday"><br><br>
+        <label for="Althund">Alt dein Hund:</label>
+        <input type="range" id="Althund" name="Alt" min="0" max="20" ><br><br>
+        <label for="browsers">Geschlecht dine Hund</label>
+        <input list="browsers">
+        <datalist id="browsers hund">
+            <option value="HERR">
+            <option value="FRAU">
+
+        </datalist><br><br>
+        <button type="button">Weiter</button><br><br>
+        <input type="submit" value="Send">
+    </fieldset>
+</form>
+</body>
+</html>

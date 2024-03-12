@@ -4,6 +4,9 @@ background : url("tierschutz-hunde.jpg" ) ;
 
 }
 /*backgrand seit web ist mein foto/*/
+#one1{
+    width:100% ;
+}
 
 .ersie {
     color: red;
@@ -23,7 +26,12 @@ h2 {
 
 .neww{
     color: #738a6e;
+
 }
 .neww2{
     color: red;
+
+}
+#one{
+    font-size: 50px;
 }
