@@ -1,3 +1,12 @@
+@media (min-width: 480px){
+    main {width: 60%;}
+}
+@media (min-width: 768px){
+    main {width: 80%;}
+}
+
+
+
 #flex {
     display: flex;
     background-color: DodgerBlue;
@@ -40,6 +49,7 @@
 .fle {
     font-size: 40px;
     text-decoration: underline #0e3683;
+    text-align: center;
 
 }
 
