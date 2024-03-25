@@ -1,17 +1,35 @@
-.grid\.or{
+.grid.or{
     display: grid;
-    background-color: #dcd5ce;
-    grid-template-columns:auto auto ;
+    grid-template-columns: [first] 10px [line1] 90px [line2] 650px ;
+    grid-template-rows: [row1] 40px [row2] 40px [row3] 100px [ro4] 100px [row5] 100px [row6] 100px;
+
 }
-.grid{
+.iteam{
     display: grid;
-    grid-column-start: 2;
-    width: 750px;
-    /*grid-template-columns: [first] 100px [line2] 150px [line3] auto [col4-start] 300px;*/
-    /*grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-l]auto;*/
+    font-size: 40px;
+    background-color: #95b0ea;
+    grid-column-start:first;
+    grid-column-end: line2;
+    grid-template-rows:40px;
 
-    background-color: #bac9e8;
+
 }
-.item{
+.iteam1{
 
+    display: grid;
+    font-size: 40px;
+    background-color: #916a71;
+    width: 50px;
+    height: 100px;
+    grid-column-start:1;
+    grid-column-end: 3;
+    grid-rows-start:row2;
+    grid-rows-ende:row3;
+}
+.iteam2{
+    display: grid;
+    grid-column-start:1;
+    grid-column-end: 3;
+    grid-rows-start:row1;
+    grid-rows-ende:row6;
 }
